@@ -1,0 +1,48 @@
+TECHNISCHER TESTBERICHT — 09.10.2026
+
+Tatsächlich durchgeführt:
+- HTML mit BeautifulSoup eingelesen: keine doppelten IDs oder defekten internen Ankerziele.
+- JavaScript mittels node --check: Syntaxprüfung bestanden.
+- Chromium/Playwright mit page.set_content (lokale Browser-Navigation war in
+  dieser Umgebung durch Administrator-Sperre nicht verfügbar).
+- Viewports: 320, 360, 390, 430, 768, 1024, 1366, 1440, 1920 Pixel Breite.
+- Kein horizontales Überlaufen an diesen Breiten.
+- Galerie (4), Spezialitätenbilder (4) und Hauptbild: nach Scroll-Laden vorhanden;
+  Browser meldete für alle relevanten Bilder naturalWidth > 0.
+- Sprachwechsel Deutsch, Englisch, Türkisch ausgeführt; JavaScript-Konsole ohne
+  pageerror in den getesteten Ansichten.
+- Preisübersetzung: 6 Fälle „ab“ wurden als „from“ und „'dan itibaren“ dargestellt.
+- Speisekartenfilter all, grill, oven, veg und zurück all betätigt.
+- Mobiles Hamburger-Menü: öffnen, Menüpunkt „Bewertungen“ antippen, schließen getestet.
+- Design-Screenshots für PC (1440) und Smartphone (390) erzeugt.
+
+NICHT vollständig getestet / weiterhin offen:
+- Echte Smartphones und echte Desktopgeräte außerhalb der Browseremulation.
+- Live-Schaltung auf Server, externe Google Maps-, Lieferando-, Branchenportal-
+  und Google-Rezensionsseiten nach dem Anklicken.
+- Verifizierung von Betreiberangaben, Preisen, Bewertungen und Foto-Nutzungsrechten.
+- Finale juristische Prüfung (insbesondere Impressum und Datenschutzerklärung).
+- Umfassende Accessibility- und Cross-Browser-Prüfung.
+
+AKTUALISIERUNG: GEBÄUDEFOTO UND GOOGLE-MAPS-LOGO — 09.10.2026
+- Gebäudeaufnahme vom Nutzer übernommen, als WebP komprimiert und sofort im Abschnitt
+  „Über uns“ sichtbar eingebettet. SVG-Illustration entfernt.
+- Standortgrafik gegen Nutzerbild „google maps neu.webp“ ausgetauscht; kompletter
+  Bildbereich verlinkt den überprüften Google-Maps-Suchlink in neuem Tab.
+- Der Maps-Link lädt bei Seitenaufruf keine externe Karte; kein Tracking-Widget ergänzt.
+- HTML erneut geparst: keine doppelten IDs oder defekten internen Ankerziele.
+- JavaScript mittels node --check: bestanden.
+- Chromium/Playwright mit page.set_content bei Breiten 320, 360, 390, 430, 768,
+  1024, 1366, 1440, 1920 Pixel getestet.
+- Beide neuen eingebetteten Bilder bei allen Breiten erfolgreich dekodiert
+  (naturalWidth=794 für Außenfoto; naturalWidth=500 für Maps-Logo).
+- Kein horizontales Scrollen auf diesen Viewports; keine JavaScript-pageerrors.
+- Sprachwechsel DE/EN/TR: neue Karten-Schaltfläche und Gebäude-Alttext korrekt
+  übersetzt; Preise nach Sprachwechsel weiterhin formatiert.
+- Mobiles Menü bei 390 Pixel Breite dreimal geöffnet und geschlossen.
+- Screenshots der aktualisierten Abschnitte in PC- und Mobile-Ansicht erstellt.
+- Dateinavigation per file:/// war durch Browserumgebung gesperrt; geprüft wurde
+  stattdessen das vollständige HTML über page.set_content. Ein Hostingtest
+  und die Prüfung des externen Google-Maps-Dienstes wurden nicht durchgeführt.
+- Die kommerziellen Rechte am Gebäudephoto und die Google-Maps-Markenrichtlinien
+  sind vor Veröffentlichung zu klären.

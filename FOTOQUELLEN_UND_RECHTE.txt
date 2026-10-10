@@ -1,0 +1,44 @@
+FOTOQUELLEN, RECHTE & REZENSIONSHERKUNFT — 09.10.2026
+
+BILDER
+Alle lokal gezeigten Speisenfotos stammen aus der im Chat vom Nutzer bereitgestellten
+Collage „istanbul bild.jpg“:
+- assets/istanbul-grillteller.jpg — obere linke Bildhälfte
+- assets/istanbul-teller-mit-pide.jpg — obere rechte Bildhälfte
+- assets/istanbul-fladenbrot-beilagen.jpg — untere linke Bildhälfte
+- assets/istanbul-lahmacun.jpg — untere rechte Bildhälfte
+- assets/istanbul-originalcollage.jpg — hochgeladene Originalcollage
+
+Die Fotos sind im HTML als data:image/jpeg eingebettet und erscheinen ohne Online-Zugriff.
+Urheber, konkrete Foto-Lizenz und kommerzielle Nutzungserlaubnis sind NICHT bestätigt.
+Für eine öffentliche, kommerzielle Website vorab Erlaubnis der Rechteinhaber beschaffen.
+Die Collage enthält in einem Teilbereich ein gezeichnetes Maskottchen/Wasserzeichen;
+auch dessen Nutzung muss geklärt werden. Das ist kein Werbefoto eines anderen Restaurants.
+
+GOOGLE-REZENSIONEN — KEINE LIVE-EINBINDUNG
+- Bewertungswert 4,1 / 5 laut Restaurant Guru (Google-Bewertung, Datenstand der
+  recherchierten Drittquelle Oktober 2026; Angaben anderer Seiten können abweichen).
+- Google-Rezension Alex Savkov: kurzer belegter Auszug über Restaurant Guru.
+  https://de.restaurantguru.com/amp/Istanbul-Restaurant-Ingelheim-am-Rhein
+- Zwei kurze Originalauszüge aus von Coolibri dokumentierten Google-Stimmen
+  (April 2026, Autoren in der Quelle nicht genannt).
+  https://coolibri.de/restaurant/istanbul-restaurant-grill-ingelheim-am-rhein/
+- Website übersetzt Zitate ins Englische/Türkische sinngemäß und kennzeichnet diese
+  Sprachfassungen als Übersetzungen.
+- Es handelt sich um ausgewählte Ausschnitte, nicht um den aktuellen vollständigen
+  Rezensionenbestand. Quelle für die Link-Schaltfläche ist Google Maps-Suche.
+- Rechte/Erlaubnis zur Veröffentlichung konkreter Rezensionen und Aktualität der
+  Bewertung müssen vom Betreiber vor produktivem Einsatz geprüft werden.
+- Kein offizielles Google Reviews Widget und kein behaupteter Live-Sync.
+
+ZUSÄTZLICHE NUTZERBILDER — 09.10.2026
+- assets/istanbul-aussenansicht-original.png — direkt vom Nutzer als „istanbuul.PNG“ hochgeladen;
+  zeigt die Restaurantaußenansicht. Im HTML eingebettete optimierte WebP-Version:
+  assets/istanbul-aussenansicht.webp (visuell identisch, nur komprimiert).
+- assets/google-maps-logo.webp — direkt vom Nutzer als „google maps neu.webp“
+  hochgeladen; offizielles Google-Maps-Markenzeichen/Logo.
+- Die alleinige Bereitstellung der Bilder durch den Nutzer ist kein verifizierter Nachweis
+  für die gewerbliche Nutzungsberechtigung. Besonders Markenverwendungsregeln
+  für das Google-Maps-Logo und Rechte an der Gebäudefotografie vor der Veröffentlichung prüfen.
+- Google Maps wird nicht automatisch eingebettet; der Kartenbereich ist ein schlichter
+  extern öffnender Link und stellt keine aktuelle Karte dar.
