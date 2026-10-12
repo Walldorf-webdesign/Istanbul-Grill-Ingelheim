@@ -605,6 +605,12 @@
 .reviews-section{padding:55px 0}
 }
 </style>
+<style>
+.menu-scroll-hint{text-align:center;font-size:12px;font-weight:600;color:var(--forest);margin:0 0 12px}
+.menu-scroll-hint span{display:none}
+html[lang="de"] .menu-scroll-hint [lang="de"],html[lang="en"] .menu-scroll-hint [lang="en"],html[lang="tr"] .menu-scroll-hint [lang="tr"]{display:inline}
+#menuItems{background:#f8f4eb;border:1px solid #d9c9a3;border-radius:8px;padding-inline:16px;scrollbar-gutter:stable}
+</style>
 </head>
 <body>
 <a class="skip" href="#main" data-i18n="skip">Zum Inhalt springen</a>
@@ -862,7 +868,8 @@
         <button type="button" class="filter" aria-pressed="false" data-filter="oven" data-i18n="ovenItems">Aus dem Ofen</button>
         <button type="button" class="filter" aria-pressed="false" data-filter="veg" data-i18n="vegItems">Vegetarisch &amp; mehr</button>
       </div>
-      <div class="menu-items" id="menuItems" aria-live="polite" role="region" tabindex="0" aria-label="Speisekarte mit Gerichten und Preisen">
+      <p class="menu-scroll-hint"><span lang="de">↕ Hier durch die Gerichte und Preise scrollen</span><span lang="en">↕ Scroll here to browse dishes and prices</span><span lang="tr">↕ Yemekleri ve fiyatları görmek için burada kaydırın</span></p>
+      <div class="menu-items" id="menuItems" style="height:min(55vh,420px);max-height:420px;overflow-y:scroll;-webkit-overflow-scrolling:touch" aria-live="polite" role="region" tabindex="0" aria-label="Speisekarte mit Gerichten und Preisen">
         <article class="menu-item" data-category="grill" data-menu-index="0"><div><h3>Adana Kebap Teller</h3><p>mit Hackfleischspieß und Beilage nach Wahl</p></div><span class="menu-price">15,50 €</span></article>
         <article class="menu-item" data-category="grill" data-menu-index="1"><div><h3>Gemischter Grillteller</h3><p>für eine Person, mit verschiedenen Spießen und Beilagen</p></div><span class="menu-price">25,00 €</span></article>
         <article class="menu-item" data-category="grill" data-menu-index="2"><div><h3>Hähnchenspieß Teller</h3><p>mit Hähnchenspieß und Beilage nach Wahl</p></div><span class="menu-price">15,50 €</span></article>
